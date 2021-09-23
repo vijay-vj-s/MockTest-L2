@@ -16,7 +16,7 @@ public class StringReverse {
                ans+=tempNew.charAt(j);
 
            }
-
+            ans+=" ";
        }
         System.out.println(stringArray[0]+" "+ans+ " "+stringArray[len-1]);
 
